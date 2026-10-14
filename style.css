@@ -24,6 +24,6 @@ p, li { color: var(--text); }
 a { color: var(--accent); }
 ul { padding-left: 22px; }
 table { width: 100%; border-collapse: collapse; font-size: 15px; }
-td, th { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+td, th { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: top; overflow-wrap: anywhere; }
 th { color: var(--muted); font-weight: 600; }
 footer { margin-top: 48px; color: var(--muted); font-size: 14px; }
